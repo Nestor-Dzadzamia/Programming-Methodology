@@ -9,6 +9,7 @@ public class Problem_07 extends SuperKarel {
 			}
 			move();
 			if(frontIsBlocked()) {
+				putBeeper();
 				if(facingEast()) {
 					if(leftIsClear()) {
 						turnLeft();
