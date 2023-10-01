@@ -1,4 +1,4 @@
 
-public class Problem_03 {
+public class Problem_03 extends SuperKarel {
 
 }
