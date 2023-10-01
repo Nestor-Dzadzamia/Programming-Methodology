@@ -16,7 +16,11 @@ public class Problem_07 extends SuperKarel {
 						turnLeft();
 					}
 				} else {
-					
+					if(rightIsClear()) {
+						turnRight();
+						move();
+						turnRight();
+					}
 					
 				}
 			}
