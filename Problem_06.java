@@ -3,7 +3,8 @@ import stanford.karel.SuperKarel;
 public class Problem_06 extends SuperKarel {
 	
 	public void run() {
-
+		firstAssembly();
+		secondAssembly();
 	}
 	
 	private void firstAssembly() {
