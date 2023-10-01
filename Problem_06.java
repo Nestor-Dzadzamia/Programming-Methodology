@@ -21,4 +21,16 @@ public class Problem_06 extends SuperKarel {
 		}
 	}
 	
+	private void secondAssembly() {
+		move();
+		while(beepersPresent()) {
+			pickBeeper();
+			move();
+			putBeeper();
+			turnAround();
+			move();
+			turnAround();
+		}
+	}
+	
 }
