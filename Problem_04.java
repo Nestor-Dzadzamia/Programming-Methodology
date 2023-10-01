@@ -5,7 +5,10 @@ public class Problem_04 extends SuperKarel {
 	public void run() {
 		while(noBeepersPresent()){
 			putBeeper();
-			move();
+			if(frontIsClear()) {
+				move();
+			}
+
 		}
 	}
 }
