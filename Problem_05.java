@@ -6,9 +6,9 @@ public class Problem_05 extends SuperKarel{
 		while(frontIsClear()) {
 			if(noBeepersPresent()) {
 				putBeeper();
-				if(frontIsClear()) {
-					move();
-				}
+			}
+			if(frontIsClear()) {
+				move();
 			}
 		}
 	}
