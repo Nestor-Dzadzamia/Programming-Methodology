@@ -8,7 +8,6 @@ public class Problem_09 extends SuperKarel {
 			multiply();			
 			turnAround();
 		}
-		multiply();
 	}
 	
 	private void multiply() {
