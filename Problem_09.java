@@ -5,8 +5,8 @@ public class Problem_09 extends SuperKarel {
 		turnLeft();
 		move();
 		while (beepersPresent()) {
-			turnAround();
 			multiply();			
+			turnAround();
 		}
 		multiply();
 	}
