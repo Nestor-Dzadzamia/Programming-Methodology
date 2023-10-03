@@ -40,6 +40,9 @@ public class Problem_09 extends SuperKarel {
 		move();
 		move();
 		move();
-		pickBeeper();
+		if (beepersPresent()) {
+			pickBeeper();
+		}
+
 	}
 }
