@@ -8,6 +8,10 @@ public class Problem_09 extends SuperKarel {
 			multiply();			
 			turnAround();
 		}
+		move();
+		while(beepersPresent()) {
+			pickBeeper();
+		}
 	}
 	
 	private void multiply() {
