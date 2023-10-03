@@ -2,7 +2,12 @@ import stanford.karel.SuperKarel;
 
 public class Problem_09 extends SuperKarel {
 	public void run() {
-		multiply();
+		turnLeft();
+		move();
+		while (beepersPresent()) {
+			multiply();			
+		}
+
 	}
 	
 	private void multiply() {
@@ -37,6 +42,7 @@ public class Problem_09 extends SuperKarel {
 		move();
 		move();
 		pickBeeper();
-		turnAround();
+		move();
+		turnLeft();
 	}
 }
