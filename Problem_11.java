@@ -2,9 +2,12 @@ import stanford.karel.SuperKarel;
 
 public class Problem_11 extends SuperKarel {
 	public void run() {
-		while(frontIsClear()) {
+		while (frontIsClear()) {
+			if (beepersPresent()) {
+				stop();
+			}
 			move();
-			if(frontIsBlocked()) {
+			if (frontIsBlocked()) {
 				findAWay();
 			}
 		}
