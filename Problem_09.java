@@ -16,7 +16,6 @@ public class Problem_09 extends SuperKarel {
 	private void multiply() {
 		turnLeft();
 		move();
-		move();
 		while (beepersPresent()) {
 			pickBeeper();
 			move();
@@ -45,7 +44,5 @@ public class Problem_09 extends SuperKarel {
 		move();
 		move();
 		pickBeeper();
-		move();
-		turnLeft();
 	}
 }
