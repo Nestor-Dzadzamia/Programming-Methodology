@@ -2,15 +2,14 @@ import stanford.karel.SuperKarel;
 
 public class Problem_09 extends SuperKarel {
 	public void run() {
-//		turnLeft();
-//		move();
-//		while (beepersPresent()) {
-//			turnAround();
-//			move();
-//			turnLeft();
-//			multiply();			
-//		}
-		multiply();
+		turnLeft();
+		move();
+		while (beepersPresent()) {
+			turnAround();
+			move();
+			turnLeft();
+			multiply();			
+		}
 
 	}
 	
