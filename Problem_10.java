@@ -6,7 +6,6 @@ public class Problem_10 extends SuperKarel {
 		while (beepersPresent()) {
 			divide();
 		}
-		
 	}
 	
 	public void getTo2x1() {
