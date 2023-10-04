@@ -5,6 +5,12 @@ public class Problem_10 extends SuperKarel {
 		getTo2x1();
 		while (beepersPresent()) {
 			divide();
+			if (noBeepersPresent()) {
+				move();
+				while(beepersPresent()) {
+					pickBeeper();
+				}
+			}
 		}
 	}
 	
