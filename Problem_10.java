@@ -3,7 +3,10 @@ import stanford.karel.SuperKarel;
 public class Problem_10 extends SuperKarel {
 	public void run() {
 		getTo2x1();
-		divide();
+		while (beepersPresent()) {
+			divide();
+		}
+		
 	}
 	
 	public void getTo2x1() {
