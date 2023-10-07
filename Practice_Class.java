@@ -50,6 +50,7 @@ public class Practice_Class extends SuperKarel{
 		move();
 		turnLeft();
 		move();
+		move();
 	}
 
 	private void pickBeepers() {
