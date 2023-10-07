@@ -20,6 +20,14 @@ public class Practice_Class extends SuperKarel{
 		while (beepersInBag()) {
 			putBeeper();
 		}
+		turnAround();
+		while (frontIsClear()) {
+			move();
+		}
+		turnRight();
+		while(noBeepersPresent()) {
+			move();
+		}
 		
 	}
 
