@@ -3,8 +3,11 @@ import stanford.karel.SuperKarel;
 public class Practice_Class extends SuperKarel{
 	public void run() {
 		moveFirst();
-		pickBeepers();
-		putBeepers();
+		while (beepersPresent()) {
+			pickBeepers();
+			putBeepers();
+		}
+
 	}
 
 	private void putBeepers() {
