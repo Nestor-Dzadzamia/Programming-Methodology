@@ -24,7 +24,7 @@ public class Practice_Class extends SuperKarel{
 		while (frontIsClear()) {
 			move();
 		}
-		turnRight();
+		turnLeft();
 		while(noBeepersPresent()) {
 			move();
 		}
