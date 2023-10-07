@@ -18,7 +18,9 @@ public class Practice_Class extends SuperKarel{
 		turnRight();
 		move();
 		while (beepersPresent()) {
-			move();
+			if (frontIsClear()) {
+				move();
+			}
 		}
 		while (beepersInBag()) {
 			putBeeper();
@@ -29,7 +31,9 @@ public class Practice_Class extends SuperKarel{
 		}
 		turnLeft();
 		while(noBeepersPresent()) {
-			move();
+			if (frontIsClear()) {
+				move();
+			}
 		}
 		
 	}
