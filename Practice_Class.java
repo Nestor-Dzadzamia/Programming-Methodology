@@ -16,7 +16,9 @@ public class Practice_Class extends SuperKarel{
 			move();
 		}
 		turnRight();
-		move();
+		if (frontIsClear()) {
+			move();
+		}
 		while (beepersPresent()) {
 			if (frontIsClear()) {
 				move();
