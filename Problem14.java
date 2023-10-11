@@ -33,11 +33,13 @@ public class Problem14 extends GraphicsProgram {
 	private void drawFace() {
 		int height = getHeight();
 		int width = getWidth();
+		int x = 300;
+		int y = 300
 		
-		GRect face = new GRect(300, 300);
+		GRect face = new GRect(x, y);
 		face.setFilled(true);
 		face.setColor(Color.gray);
-		add(face, (height / 2) - 150, (width / 2) - 150);
+		add(face, (height / 2) - (x / 2), (width / 2) - (y / 2));
 		
 	}
 
