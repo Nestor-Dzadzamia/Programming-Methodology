@@ -25,6 +25,7 @@ public class Problem14 extends GraphicsProgram {
 		add(line4);
 		add(line5);
 		add(line6);
+		add(line7);
 		
 	}
 
