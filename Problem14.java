@@ -21,7 +21,15 @@ public class Problem14 extends GraphicsProgram {
 	}
 
 	private void drawMouth() {
-		// TODO Auto-generated method stub
+		int height = getHeight();
+		int width = getWidth();
+		int x = 120;
+		int y = 50;
+		
+		GRect mouth = new GRect(x, y);
+		mouth.setFilled(true);
+		mouth.setColor(Color.black);
+		add(mouth, (height / 2) - (x / 2), (width / 2) + 50);
 		
 	}
 
