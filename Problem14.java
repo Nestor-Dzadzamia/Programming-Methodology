@@ -12,7 +12,7 @@ public class Problem14 extends GraphicsProgram {
 
 	private void drawTheSybol() {
 		GLine line1 = new GLine(100, 100, 130, 140);
-		GLine line2 = new GLine(130, 140, 160, 100);
+		GLine line2 = new GLine(100, 100, 160, 100);
 		line1.setColor(Color.black);
 		add(line1);
 		add(line2);
