@@ -18,7 +18,7 @@ public class Problem14 extends GraphicsProgram {
 		GLine line5 = new GLine(130, 140, 160, 180);
 		GLine line6 = new GLine(160, 180, 120, 210);
 		GLine line7 = new GLine(130, 140, 90, 170);
-//		GLine line8 = new GLine(90, 170, )
+		GLine line8 = new GLine(90, 170, 50, 140);
 		line1.setColor(Color.black);
 		add(line1);
 		add(line2);
