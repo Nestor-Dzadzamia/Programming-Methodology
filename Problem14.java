@@ -34,7 +34,7 @@ public class Problem14 extends GraphicsProgram {
 		int height = getHeight();
 		int width = getWidth();
 		int x = 300;
-		int y = 300
+		int y = 300;
 		
 		GRect face = new GRect(x, y);
 		face.setFilled(true);
