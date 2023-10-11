@@ -16,7 +16,9 @@ public class Problem14 extends GraphicsProgram {
 	}
 
 	private void drawNose() {
-		// TODO Auto-generated method stub
+		int height  = getHeight();
+		int width = getWidth();
+		
 		
 	}
 
