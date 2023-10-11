@@ -1,4 +1,4 @@
 
-public class Problem14 {
+public class Problem14 extends GraphicsProgram {
 
 }
