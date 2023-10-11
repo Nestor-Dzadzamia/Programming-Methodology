@@ -33,6 +33,7 @@ public class Problem14 extends GraphicsProgram {
 	private void drawFace() {
 		int height = getHeight();
 		int width = getWidth();
+		println(height + " " + width);
 		int x = 300;
 		int y = 300;
 		
