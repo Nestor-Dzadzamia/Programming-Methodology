@@ -1,5 +1,6 @@
 import java.awt.Color;
 
+import acm.graphics.GLine;
 import acm.graphics.GRect;
 import acm.program.GraphicsProgram;
 
@@ -7,6 +8,11 @@ public class Problem14 extends GraphicsProgram {
 	public void run() {
 		drawRobot();
 		drawTheSybol();
+	}
+
+	private void drawTheSybol() {
+		GLine line = new GLine(0, 0, 30, 40);
+		
 	}
 
 	private void drawRobot() {
