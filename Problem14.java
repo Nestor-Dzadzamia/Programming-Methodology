@@ -36,6 +36,10 @@ public class Problem14 extends GraphicsProgram {
 		leftEye.setColor(Color.black);
 		add(leftEye, (height / 2) - 150 + 30, (width / 2) - 150 + 30);
 		
+		GRect rightEye = new GRect(x, y);
+		rightEye.setFilled(true);
+		rightEye.setColor(Color.black);
+		add(rightEye, (height / 2) + 150 - 30, (width / 2) + 150 - 30);
 		
 	}
 
