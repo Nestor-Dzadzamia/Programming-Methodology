@@ -34,12 +34,12 @@ public class Problem14 extends GraphicsProgram {
 		GRect leftEye = new GRect(x, y);
 		leftEye.setFilled(true);
 		leftEye.setColor(Color.black);
-		add(leftEye, (height / 2) - 150 + 30, (width / 2) - 150 + 30);
+		add(leftEye, (height / 2) - 150 + 50, (width / 2) - 150 + 30);
 		
 		GRect rightEye = new GRect(x, y);
 		rightEye.setFilled(true);
 		rightEye.setColor(Color.black);
-		add(rightEye, (height / 2) + 150 - 30, (width / 2) - 150 + 30);
+		add(rightEye, (height / 2) + 150 - 50, (width / 2) - 150 + 30);
 		
 	}
 
