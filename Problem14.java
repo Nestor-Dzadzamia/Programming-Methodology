@@ -18,7 +18,13 @@ public class Problem14 extends GraphicsProgram {
 	private void drawNose() {
 		int height  = getHeight();
 		int width = getWidth();
+		int x = 20;
+		int y = 20;
 		
+		GRect nose = new GRect(x, y);
+		nose.setFilled(true);
+		nose.setColor(Color.black);
+		add(nose, (height / 2) - (x / 2), (width / 2) - (y / 2));
 		
 	}
 
