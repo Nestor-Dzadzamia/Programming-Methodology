@@ -19,7 +19,7 @@ public class Problem14 extends GraphicsProgram {
 		int height  = getHeight();
 		int width = getWidth();
 		int x = 50;
-		int y = 30;
+		int y = 40;
 		
 		GRect nose = new GRect(x, y);
 		nose.setFilled(true);
