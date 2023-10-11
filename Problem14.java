@@ -12,6 +12,8 @@ public class Problem14 extends GraphicsProgram {
 
 	private void drawTheSybol() {
 		GLine line = new GLine(0, 0, 30, 40);
+		line.setColor(Color.BLACK);
+		
 		
 	}
 
