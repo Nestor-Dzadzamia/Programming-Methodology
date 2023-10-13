@@ -15,7 +15,7 @@ public class Problem_26 extends ConsoleProgram {
 		}
 		
 		for (int i = min; i > 0; i--) {
-			if (max % i == 0) {
+			if (max % i == 0 && min % i == 0) {
 				println(i);
 				break;
 			}
