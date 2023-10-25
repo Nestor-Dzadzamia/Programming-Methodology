@@ -17,7 +17,7 @@ public class Problem_29 extends ConsoleProgram {
 				temp = first;
 				first = second;
 				second = first + temp;
-				println("first : " + first + "Second : " + second);
+				println("first : " + first + " Second : " + second);
 			}
 		}
 		
