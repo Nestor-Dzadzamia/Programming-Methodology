@@ -1,4 +1,4 @@
 
-public class Problem_32 {
+public class Problem_32 extends ConsoleProgram{
 
 }
