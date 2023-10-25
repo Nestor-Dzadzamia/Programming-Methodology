@@ -12,8 +12,11 @@ public class Problem_29 extends ConsoleProgram {
 		int second = 1;
 		int temp;
 		
-		for (int i = 0; i < n - 1; i++) {
-			
+		if (n > 2) {
+			for (int i = 0; i < n - 1; i++) {
+				
+			}
 		}
+
 	}
 }
