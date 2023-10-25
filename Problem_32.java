@@ -20,7 +20,9 @@ public class Problem_32 extends ConsoleProgram{
 	
 	private void printPrimeNumbers() {
 		for (int i = 0; i < 1_000_000; i++) {
-			
+			if (isPrime(i) == true) {
+				println(i);
+			}
 		}
 	}
 }
