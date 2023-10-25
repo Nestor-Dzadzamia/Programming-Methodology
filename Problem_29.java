@@ -25,9 +25,8 @@ public class Problem_29 extends ConsoleProgram {
 				return first;
 			}
 			
-		}
-		
-		return first;
+		} else if(n == 0) return first;
+		else return second;
 
 	}
 }
