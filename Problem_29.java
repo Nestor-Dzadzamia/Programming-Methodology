@@ -13,7 +13,7 @@ public class Problem_29 extends ConsoleProgram {
 		int temp;
 		
 		if (n > 2) {
-			for (int i = 0; i < n - 1; i++) {
+			for (int i = 0; i < n - 2; i++) {
 				temp = first;
 				first = second;
 				second = first + temp;
