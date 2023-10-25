@@ -4,7 +4,7 @@ public class Problem_29 extends ConsoleProgram {
 	public void run() {
 		int n = readInt("Enter number : ");
 		
-		println(fibonacci(n));
+		fibonacci(n);
 	}
 	
 	private int fibonacci(int n) {
@@ -20,6 +20,8 @@ public class Problem_29 extends ConsoleProgram {
 				println("first : " + first + "Second : " + second);
 			}
 		}
+		
+		return first;
 
 	}
 }
