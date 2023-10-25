@@ -2,7 +2,7 @@ import acm.program.ConsoleProgram;
 
 public class Problem_32 extends ConsoleProgram{
 	public void run() {
-		
+		printPrimeNumbers();
 	}
 	
 	private boolean isPrime(int n) {
@@ -15,6 +15,10 @@ public class Problem_32 extends ConsoleProgram{
 		} else return false;
 		
 		return true;
+		
+	}
+	
+	private void printPrimeNumbers() {
 		
 	}
 }
