@@ -8,6 +8,12 @@ public class Problem_29 extends ConsoleProgram {
 	}
 	
 	private int fibonacci(int n) {
+		int first = 0;
+		int second = 1;
+		int temp;
 		
+		for (int i = 0; i < n - 1; i++) {
+			
+		}
 	}
 }
