@@ -17,8 +17,14 @@ public class Problem_29 extends ConsoleProgram {
 				temp = first;
 				first = second;
 				second = first + temp;
-				println("first : " + first + " Second : " + second);
 			}
+			
+			if (n % 2 == 0) {
+				return second;
+			} else {
+				return first;
+			}
+			
 		}
 		
 		return first;
