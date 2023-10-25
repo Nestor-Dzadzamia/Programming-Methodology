@@ -14,7 +14,7 @@ public class Problem_29 extends ConsoleProgram {
 		
 		if (n > 2) {
 			for (int i = 0; i < n - 1; i++) {
-				temp = second;
+				temp = first;
 				first = second;
 				second = first + temp;
 				println("first : " + first + " Second : " + second);
