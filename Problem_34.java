@@ -24,7 +24,7 @@ public class Problem_34	extends GraphicsProgram {
 		GOval circle = new GOval(radius, radius);
 		circle.setFilled(true);
 		circle.setFillColor(color);
-		add(circle, xCoordinate, yCoordinate);
+		add(circle, xCoordinate - radius, yCoordinate - radius);
 	}
 
 }
