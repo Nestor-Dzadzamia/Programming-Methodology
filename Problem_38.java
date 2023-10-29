@@ -23,7 +23,11 @@ public class Problem_38 extends ConsoleProgram{
 				balance += bid * 2;
 				println("Congrats, you won! your new balance : " + balance);
 			} else {
-				println("Unfortunately, you Lost! your new Balance : " + balance);
+				if (balance == 0) {
+					println("You've Lost All your money!");
+				} else {
+					println("Unfortunately, you Lost! your new Balance : " + balance);
+				}
 			}
 		}
 	}
