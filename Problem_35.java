@@ -12,13 +12,15 @@ public class Problem_35 extends ConsoleProgram {
 	private int totalTrials() {
 		int count = 1;
 		
-		
-		while (true) {
-			int coin = rgen.nextInt(0,1);
-			if (coin == 1) {
-				return count;
-			} else count++;
+		for (int i = 0; i < NUMBER_OF_GAMES; i++) {
+			while (true) {
+				int coin = rgen.nextInt(0,1);
+				if (coin == 1) {
+					break;
+				} else count++;
+			}
 		}
+		
 		
 	}
 
