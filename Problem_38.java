@@ -17,7 +17,7 @@ public class Problem_38 extends ConsoleProgram{
 			int winNumber = rgen.nextInt(0, 36);
 			
 			while (bid > balance) {
-				bid = readInt("ReEnter the bid, you dont have this amount of money on your balance");
+				bid = readInt("ReEnter the bid, you dont have this amount of money on your balance : ");
 			}
 			
 			balance -= bid;
