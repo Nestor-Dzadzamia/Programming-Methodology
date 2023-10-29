@@ -11,5 +11,9 @@ public class Problem_38 extends ConsoleProgram{
 	public void playRoulette() {
 		int balance = 1000;
 		
+		while (balance != 0) {
+			int bid = readInt("Enter The Amount You Would like to bid");
+			int bidNumber = readInt("Enter The Number to bet");
+		}
 	}
 }
