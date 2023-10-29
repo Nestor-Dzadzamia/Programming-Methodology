@@ -11,7 +11,7 @@ public class Problem_37 extends ConsoleProgram {
 		int number = readInt("Enter the number you would like to bet on --- ");
 		int winNumber = rgen.nextInt(0,36);
 		
-		
+		println("Winning number is ---- " + winNumber);
 		
 		if (winNumber == number) {
 			println("Congrats!!! you won");
