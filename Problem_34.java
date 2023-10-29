@@ -13,6 +13,8 @@ public class Problem_34	extends GraphicsProgram {
 		Color color = rgen.nextColor();
 		int xCoordinate = rgen.nextInt();
 		int yCoordinate = rgen.nextInt();
+		
+		
 	}
 
 }
