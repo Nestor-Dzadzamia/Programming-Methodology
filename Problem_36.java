@@ -3,7 +3,7 @@ import acm.util.RandomGenerator;
 
 public class Problem_36 extends ConsoleProgram {
 	private RandomGenerator rgen = RandomGenerator.getInstance();
-	private static final int NUMBER_OF_GAMES = 10000;
+	private static final int NUMBER_OF_GAMES = 2;
 	public void run() {
 		println(avgTrialsForThreeHeads());
 	}
