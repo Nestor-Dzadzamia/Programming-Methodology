@@ -11,10 +11,12 @@ public class Problem_37 extends ConsoleProgram {
 		int number = readInt("Enter the number you would like to bet on --- ");
 		int winNumber = rgen.nextInt(0,36);
 		
+		
+		
 		if (winNumber == number) {
 			println("Congrats!!! you won");
 		} else {
-			println("You Lost, but dont give up. Losers Quit before they win big");
+			println("Unfortunately, You Lost. don't give up, Losers Quit before they win big");
 		}
 	}
 }
