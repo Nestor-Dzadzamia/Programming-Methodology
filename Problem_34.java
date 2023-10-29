@@ -13,6 +13,9 @@ public class Problem_34	extends GraphicsProgram {
 	}
 	
 	private void drawRandomCircle() {
+		int width = getWidth();
+		int height = getHeight();
+		
 		Color color = rgen.nextColor();
 		int xCoordinate = rgen.nextInt();
 		int yCoordinate = rgen.nextInt();
