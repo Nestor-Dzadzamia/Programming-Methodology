@@ -6,6 +6,7 @@ public class Problem_37 extends ConsoleProgram{
 	}
 	
 	public void playRoulette() {
-		int number = readInt("Enter the number you would like to bid on");
+		int number = readInt("Enter the number you would like to bet on : ");
+		
 	}
 }
