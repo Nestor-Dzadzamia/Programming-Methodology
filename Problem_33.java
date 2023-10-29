@@ -20,6 +20,9 @@ public class Problem_33 extends GraphicsProgram{
 		Color color = rgen.nextColor();
 		
 		GOval circle = new GOval(radius, radius);
+		circle.setFilled(true);
+		circle.setFillColor(color);
+		
 		
 		
 	}
