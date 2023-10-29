@@ -9,7 +9,7 @@ public class Problem_35 extends ConsoleProgram {
 	}
 	
 	// total trials to get observe side of a coin
-	private int totalTrials() {
+	private double totalTrials() {
 		double count = 0;
 		
 		for (int i = 0; i < NUMBER_OF_GAMES; i++) {
