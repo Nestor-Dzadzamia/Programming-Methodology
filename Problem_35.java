@@ -3,16 +3,15 @@ import acm.util.RandomGenerator;
 
 public class Problem_35 extends ConsoleProgram {
 	private RandomGenerator rgen = RandomGenerator.getInstance();
-	private static final int NUMBER_OF_TRIALS = 10;
+	private static final int NUMBER_OF_GAMES = 10;
 	public void run() {
-		for (int i = 0; i < NUMBER_OF_TRIALS; i++) {
-			
-		}
+		
 	}
 	
 	// total trials to get observe side of a coin
 	private int totalTrials() {
 		int count = 1;
+		
 		
 		while (true) {
 			int coin = rgen.nextInt(0,1);
@@ -20,6 +19,7 @@ public class Problem_35 extends ConsoleProgram {
 				return count;
 			} else count++;
 		}
+		
 	}
 
 }
