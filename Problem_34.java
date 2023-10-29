@@ -15,7 +15,7 @@ public class Problem_34	extends GraphicsProgram {
 		int yCoordinate = rgen.nextInt();
 		int radius = rgen.nextInt(0,1000);
 		
-		GOval circle = new GOval();
+		GOval circle = new GOval(radius, radius);
 	}
 
 }
