@@ -1,3 +1,5 @@
+import java.awt.Color;
+
 import acm.program.GraphicsProgram;
 import acm.util.RandomGenerator;
 
@@ -6,8 +8,12 @@ public class Problem_33 extends GraphicsProgram{
 	
 	public void run() {
 		
-		Color color = rgen.nextColor();
+		drawRandomCircle();
 		
+		
+	}
+	
+	private void drawRandomCircle() {
 		
 	}
 
