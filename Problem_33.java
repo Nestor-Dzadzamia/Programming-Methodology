@@ -15,6 +15,10 @@ public class Problem_33 extends GraphicsProgram{
 		int width = getWidth();
 		int height = getHeight();
 		
+		int radius = rgen.nextInt(1,250);
+		
+		GOval circle = new GOval();
+		
 	}
 
 }
