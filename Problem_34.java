@@ -17,8 +17,8 @@ public class Problem_34	extends GraphicsProgram {
 		int height = getHeight();
 		
 		Color color = rgen.nextColor();
-		int xCoordinate = rgen.nextInt();
-		int yCoordinate = rgen.nextInt();
+		int xCoordinate = rgen.nextInt(0, width);
+		int yCoordinate = rgen.nextInt(0, width);
 		int radius = rgen.nextInt(0,1000);
 		
 		GOval circle = new GOval(radius, radius);
