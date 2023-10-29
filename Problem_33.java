@@ -1,3 +1,5 @@
+import java.awt.Color;
+
 import acm.graphics.GOval;
 import acm.program.GraphicsProgram;
 import acm.util.RandomGenerator;
