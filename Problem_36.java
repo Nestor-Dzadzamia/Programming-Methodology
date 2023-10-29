@@ -10,7 +10,7 @@ public class Problem_36 extends ConsoleProgram {
 	
 	public double avgTrialsForThreeHeads() {
 		int countHeads = 0;
-		int countTrials = 0;
+		double countTrials = 0;
 		for (int i = 0; i < NUMBER_OF_GAMES; i++) {
 			while (true) {
 				int coin = rgen.nextInt(0, 1);
