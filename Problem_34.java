@@ -19,10 +19,10 @@ public class Problem_34	extends GraphicsProgram {
 		Color color = rgen.nextColor();
 		int radius = rgen.nextInt(0, 250);
 		int xCoordinate = rgen.nextInt(0, width - 2 * radius);
-		int yCoordinate = rgen.nextInt(0, width - 2 * radius);
+		int yCoordinate = rgen.nextInt(0, height - 2 * radius);
 
 		
-		GOval circle = new GOval(2 * radius, 2* radius);
+		GOval circle = new GOval(2 * radius, 2 * radius);
 		circle.setFilled(true);
 		circle.setFillColor(color);
 		add(circle, xCoordinate , yCoordinate );
