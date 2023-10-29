@@ -9,6 +9,7 @@ public class Problem_38 extends ConsoleProgram{
 	}
 	
 	public void playRoulette() {
+		int balance = 1000;
 		
 	}
 }
