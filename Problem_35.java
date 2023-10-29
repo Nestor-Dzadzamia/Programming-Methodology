@@ -5,7 +5,7 @@ public class Problem_35 extends ConsoleProgram {
 	private RandomGenerator rgen = RandomGenerator.getInstance();
 	private static final int NUMBER_OF_TRIALS = 10;
 	public void run() {
-		
+		println(totalTrials());
 	}
 	
 	// total trials to get observe side of a coin
