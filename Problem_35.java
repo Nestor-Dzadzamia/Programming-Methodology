@@ -18,8 +18,6 @@ public class Problem_35 extends ConsoleProgram {
 			} else count++;
 		}
 		return count;
-
-		
 	}
 
 }
