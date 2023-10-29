@@ -17,14 +17,15 @@ public class Problem_34	extends GraphicsProgram {
 		int height = getHeight();
 		
 		Color color = rgen.nextColor();
-		int xCoordinate = rgen.nextInt(0, width);
-		int yCoordinate = rgen.nextInt(0, width);
 		int radius = rgen.nextInt(0, 500);
+		int xCoordinate = rgen.nextInt(0, width - 2 * radius);
+		int yCoordinate = rgen.nextInt(0, width - 2 * radius);
+
 		
 		GOval circle = new GOval(2 * radius, 2* radius);
 		circle.setFilled(true);
 		circle.setFillColor(color);
-		add(circle, xCoordinate - 2 * radius, yCoordinate - 2 * radius);
+		add(circle, xCoordinate , yCoordinate );
 	}
 
 }
