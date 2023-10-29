@@ -9,8 +9,15 @@ public class Problem_35 extends ConsoleProgram {
 	}
 	
 	// total trials to get observe side of a coin
-	private int totalTrials {
-		boolean coin = rgen.nextBoolean();
+	private int totalTrials() {
+		for (int i = 0; i < NUMBER_OF_TRIALS; i++) {
+			int coin = rgen.nextInt(0,1);
+			int count = 1;
+			if (coin == 1) {
+				return count;
+			} else count++;
+		}
+
 		
 	}
 
