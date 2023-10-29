@@ -11,7 +11,7 @@ public class Problem_36 extends ConsoleProgram {
 	public double avgTrialsForThreeHeads() {
 		int countHeads = 0;
 		int countTrials = 0;
-		for (int i = 0; i < NUMBER_OF_GAMES; i++) {
+//		for (int i = 0; i < NUMBER_OF_GAMES; i++) {
 			while (true) {
 				int coin = rgen.nextInt(0, 1);
 				if (coin == 1) {
@@ -24,7 +24,7 @@ public class Problem_36 extends ConsoleProgram {
 	
 				if (countHeads == 3) break;
 			}
-		}
+//		}
 		
 		return countTrials;
 		
