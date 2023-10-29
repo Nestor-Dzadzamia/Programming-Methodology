@@ -7,7 +7,7 @@ import acm.util.RandomGenerator;
 public class Problem_34	extends GraphicsProgram {
 	private	RandomGenerator rgen = RandomGenerator.getInstance();
 	public void run() {
-		for (int i = 0; i < 100; i++) {
+		for (int i = 0; i < 1000; i++) {
 			drawRandomCircle();
 		}
 	}
