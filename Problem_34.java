@@ -17,7 +17,7 @@ public class Problem_34	extends GraphicsProgram {
 		int height = getHeight();
 		
 		Color color = rgen.nextColor();
-		int radius = rgen.nextInt(0, 500);
+		int radius = rgen.nextInt(0, 250);
 		int xCoordinate = rgen.nextInt(0, width - 2 * radius);
 		int yCoordinate = rgen.nextInt(0, width - 2 * radius);
 
