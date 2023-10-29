@@ -14,8 +14,9 @@ public class Problem_38 extends ConsoleProgram{
 		while (balance != 0) {
 			int bid = readInt("Enter The Amount You Would like to bid : ");
 			int bidNumber = readInt("Enter The Number to bet on : ");
-			balance -= bid;
 			int winNumber = rgen.nextInt(0, 36);
+			
+			balance -= bid;
 			
 			println("Winning Number is -- " + winNumber);
 			if (winNumber == bidNumber) {
