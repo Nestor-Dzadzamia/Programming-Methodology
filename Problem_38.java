@@ -18,7 +18,7 @@ public class Problem_38 extends ConsoleProgram{
 			
 			balance -= bid;
 			
-			if (bid > balance) {
+			while (bid > balance) {
 				bid = readInt("ReEnter the bid, you dont have this amount of money on your balance");
 			}
 			
