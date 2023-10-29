@@ -9,6 +9,6 @@ public class Problem_37 extends ConsoleProgram {
 	
 	public void playRoulette() {
 		int number = readInt("Enter the number you would like to bet on --- ");
-		int winNumber = 
+		int winNumber = rgen.nextInt(0,36);
 	}
 }
