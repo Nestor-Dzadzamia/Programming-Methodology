@@ -1,5 +1,4 @@
-import java.awt.Color;
-
+import acm.graphics.GOval;
 import acm.program.GraphicsProgram;
 import acm.util.RandomGenerator;
 
@@ -16,8 +15,10 @@ public class Problem_33 extends GraphicsProgram{
 		int height = getHeight();
 		
 		int radius = rgen.nextInt(1,250);
+		Color color = rgen.nextColor();
 		
 		GOval circle = new GOval(radius, radius);
+		
 		
 	}
 
