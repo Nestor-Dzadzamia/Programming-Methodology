@@ -21,10 +21,10 @@ public class Problem_34	extends GraphicsProgram {
 		int yCoordinate = rgen.nextInt(0, width);
 		int radius = rgen.nextInt(0,1000);
 		
-		GOval circle = new GOval(radius, radius);
+		GOval circle = new GOval(2 * radius, 2* radius);
 		circle.setFilled(true);
 		circle.setFillColor(color);
-		add(circle, xCoordinate - radius, yCoordinate - radius);
+		add(circle, xCoordinate - 2 * radius, yCoordinate - 2 * radius);
 	}
 
 }
