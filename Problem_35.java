@@ -5,11 +5,10 @@ public class Problem_35 extends ConsoleProgram {
 	private RandomGenerator rgen = RandomGenerator.getInstance();
 	private static final int NUMBER_OF_GAMES = 10;
 	public void run() {
-		
+		println()
 	}
 	
-	// total trials to get observe side of a coin
-	private double totalTrials() {
+	private double avgNumberOfTrials() {
 		double count = 0;
 		
 		for (int i = 0; i < NUMBER_OF_GAMES; i++) {
