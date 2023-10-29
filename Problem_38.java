@@ -24,7 +24,7 @@ public class Problem_38 extends ConsoleProgram{
 				println("Congrats, you won! your new balance : " + balance);
 			} else {
 				if (balance == 0) {
-					println("You've Lost All your money!");
+					println("Sadly You've Lost All your money!");
 				} else {
 					println("Unfortunately, you Lost! your new Balance : " + balance);
 				}
