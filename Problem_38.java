@@ -18,6 +18,10 @@ public class Problem_38 extends ConsoleProgram{
 			
 			balance -= bid;
 			
+			if (bid > balance) {
+				bid = readInt("ReEnter the bid, you dont have this amount of money on your balance");
+			}
+			
 			println("Winning Number is -- " + winNumber);
 			if (winNumber == bidNumber) {
 				balance += bid * 2;
