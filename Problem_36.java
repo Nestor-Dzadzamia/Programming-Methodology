@@ -3,7 +3,7 @@ import acm.util.RandomGenerator;
 
 public class Problem_36 extends ConsoleProgram {
 	private RandomGenerator rgen = RandomGenerator.getInstance();
-	private static final int NUMBER_OF_GAMES = 2;
+	private static final int NUMBER_OF_GAMES = 1000;
 	public void run() {
 		println(avgTrialsForThreeHeads());
 	}
@@ -11,6 +11,7 @@ public class Problem_36 extends ConsoleProgram {
 	public double avgTrialsForThreeHeads() {
 		int countHeads = 0;
 		double countTrials = 0;
+		
 		for (int i = 0; i < NUMBER_OF_GAMES; i++) {
 			while (true) {
 				int coin = rgen.nextInt(0, 1);
