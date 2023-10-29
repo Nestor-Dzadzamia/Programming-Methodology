@@ -6,6 +6,7 @@ public class Problem_33 extends GraphicsProgram{
 	
 	public void run() {
 		
+		Color color = rgen.nextColor();
 		
 		
 	}
