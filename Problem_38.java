@@ -25,7 +25,7 @@ public class Problem_38 extends ConsoleProgram{
 			println("Winning Number is -- " + winNumber);
 			if (winNumber == bidNumber) {
 				balance += bid * 2;
-				println("Congrats, you won! your new balance : " + balance);
+				println("Congrats, you won! Money you won : " + bid * 2 + " your new balance : " + balance);
 			} else {
 				if (balance == 0) {
 					println("Sadly, You've Lost All your money!");
