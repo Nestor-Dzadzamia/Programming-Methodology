@@ -11,13 +11,13 @@ public class Problem_35 extends ConsoleProgram {
 	// total trials to get observe side of a coin
 	private int totalTrials() {
 		int count = 1;
-		for (int i = 0; i < NUMBER_OF_TRIALS; i++) {
+		
+		while (true) {
 			int coin = rgen.nextInt(0,1);
 			if (coin == 1) {
 				return count;
 			} else count++;
 		}
-		return count;
 	}
 
 }
