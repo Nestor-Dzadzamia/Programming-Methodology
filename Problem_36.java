@@ -21,9 +21,12 @@ public class Problem_36 extends ConsoleProgram {
 					countTrials++;
 					countHeads = 0;
 				}
-				
+	
 				if (countHeads == 3) break;
 			}
 		}
+		
+		return countTrials;
+		
 	}
 }
