@@ -9,6 +9,8 @@ public class Problem_36 extends ConsoleProgram {
 	}
 	
 	public double avgTrialsForThreeHeads() {
-	
+		for (int i = 0; i < NUMBER_OF_GAMES; i++) {
+			
+		}
 	}
 }
