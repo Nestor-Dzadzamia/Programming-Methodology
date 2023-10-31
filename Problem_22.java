@@ -10,8 +10,8 @@ public class Problem_22 extends GraphicsProgram {
 		double width = getWidth();
 		double height = getHeight();
 		
-		for (double i = 0; i <= width; i += width / 8) {
-			for (double j = 0; j <= height; j += height / 8) {
+		for (double i = 0; i <= width; i += BLOCK_SIZE) {
+			for (double j = 0; j <= height; j += BLOCK_SIZE) {
 				GRect rect = new GRect(width / 8, height / 8);
 				rect.setFilled(true);
 				rect.setFillColor(Color.cyan);
