@@ -14,7 +14,8 @@ public class Problem_22 extends GraphicsProgram {
 			for (double j = 0; j < 8 * BLOCK_SIZE; j += BLOCK_SIZE) {
 				GRect rect = new GRect(BLOCK_SIZE, BLOCK_SIZE);
 				rect.setFilled(true);
-				if (j % 2 == 0) rect.setFillColor(Color.white);
+				if (i % 2 != 0 || j % 2 != 0) rect.setFillColor(Color.Black);
+				else rect.setFillColor(Color.white);
 				add(rect, i, j);
 			}
 		}
