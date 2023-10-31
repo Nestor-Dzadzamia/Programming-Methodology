@@ -10,8 +10,6 @@ public class Problem_22 extends GraphicsProgram {
 			for (double j = height / 8; j <= height; j += height / 8) {
 				GRect horizontalLine = new GRect(0, j, width, j);
 				GRect verticalLine = new GRect(i, 0, i, height);
-				add(horizontalLine);
-				add(verticalLine);
 				
 			}
 		}
