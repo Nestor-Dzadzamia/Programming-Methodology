@@ -1,4 +1,4 @@
-import acm.graphics.GLine;
+import acm.graphics.GRect;
 import acm.program.GraphicsProgram;
 
 public class Problem_22 extends GraphicsProgram {
