@@ -6,8 +6,10 @@ public class Problem_22 extends GraphicsProgram {
 	}
 	
 	private void drawChessBoard() {
-		for (int i = 0; i < 4; i++) {
-			
+		for (int i = 0; i < 2; i++) {
+			for (int j = 0; j < 2; j++) {
+				GRect rect = new GRect(0, 0);
+			}
 		}
 	}
 
