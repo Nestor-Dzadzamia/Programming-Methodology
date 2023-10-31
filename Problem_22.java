@@ -4,5 +4,9 @@ public class Problem_22 extends GraphicsProgram {
 	public void run() {
 		drawChessBoard();
 	}
+	
+	private void drawChessBoard() {
+		
+	}
 
 }
