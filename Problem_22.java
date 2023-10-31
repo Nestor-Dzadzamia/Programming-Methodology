@@ -6,7 +6,9 @@ public class Problem_22 extends GraphicsProgram {
 	}
 	
 	private void drawChessBoard() {
-		
+		for (int i = 0; i < 4; i++) {
+			
+		}
 	}
 
 }
