@@ -1,18 +1,19 @@
-import acm.graphics.GRect;
+import acm.graphics.GLine;
 import acm.program.GraphicsProgram;
 
 public class Problem_22 extends GraphicsProgram {
 	public void run() {
-		drawChessBoard();
-	}
-	
-	private void drawChessBoard() {
-		for (int i = 0; i < 2; i++) {
-			for (int j = 0; j < 2; j++) {
-				GRect rect = new GRect(75, 75);
-				rect
+		double width = getWidth();
+		double height = getHeight();
+		
+		for (double i = width / 8; i <= width; i += width / 8) {
+			for (double j = height / 8; j <= height; j += height / 8) {
+				GRect horizontalLine = new GRect(0, j, width, j);
+				GRect verticalLine = new GRect(i, 0, i, height);
+				add(horizontalLine);
+				add(verticalLine);
+				
 			}
 		}
 	}
-
 }
