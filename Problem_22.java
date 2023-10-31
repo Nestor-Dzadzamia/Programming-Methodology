@@ -4,7 +4,7 @@ import acm.graphics.GRect;
 import acm.program.GraphicsProgram;
 
 public class Problem_22 extends GraphicsProgram {
-	private static final int BLOCK_SIZE = 40;
+	private static final int BLOCK_SIZE = 45;
 	
 	public void run() {
 		double width = getWidth();
