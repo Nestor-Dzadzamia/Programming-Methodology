@@ -4,6 +4,8 @@ import acm.graphics.GRect;
 import acm.program.GraphicsProgram;
 
 public class Problem_22 extends GraphicsProgram {
+	private static final BLOCK_SIZE = 75;
+	
 	public void run() {
 		double width = getWidth();
 		double height = getHeight();
