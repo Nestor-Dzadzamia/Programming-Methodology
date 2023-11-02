@@ -5,13 +5,15 @@ public class Problem_40 extends GraphicsProgram {
 	private static final int RADIUS = 50;
 	
 	public void run() {
-		GOval oval = new GOval(2 * RADIUS, 2 * RADIUS);
-		oval.setFilled(true);
-		
 		int xStart = 0;
 		int xEnd = getWidth() - 2 * RADIUS;
-		
 		int yConst = getHeight() / 2 - RADIUS;
+		
+		GOval oval = new GOval(2 * RADIUS, 2 * RADIUS);
+		oval.setFilled(true);
+		add(oval, xStart, yConst);
+		
+		
 		
 		while (xStart != xEnd) {
 			oval.setLocation(xStart, yConst);
