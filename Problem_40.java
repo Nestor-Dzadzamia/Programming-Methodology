@@ -27,6 +27,7 @@ public class Problem_40 extends GraphicsProgram {
 						pause(1);
 						xStart--;
 					}
+					xEnd = getWidth() - 2 * RADIUS;
 				}
 			}
 		}
