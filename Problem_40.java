@@ -19,6 +19,15 @@ public class Problem_40 extends GraphicsProgram {
 			oval.setLocation(xStart, yConst);
 			pause(1);
 			xStart++;
+			
+			if (xStart == xEnd) {
+				xEnd = 0;
+				while (xStart != xEnd) {
+					oval.setLocation(xStart - 1, yConst);
+					pause(1);
+					xStart--;
+				}
+			}
 		}
 		
 	}
