@@ -14,22 +14,21 @@ public class Problem_40 extends GraphicsProgram {
 		add(oval, xStart, yConst);
 		
 		
-		while (true) {
-			while (xStart != xEnd) {
-				oval.setLocation(xStart, yConst);
-				pause(1);
-				xStart++;
-				
-				if (xStart == xEnd) {
-					xEnd = 0;
-					while (xStart != xEnd) {
-						oval.setLocation(xStart - 1, yConst);
-						pause(1);
-						xStart--;
-					}
-					xEnd = getWidth() - 2 * RADIUS;
+		while (xStart != xEnd) {
+			oval.setLocation(xStart, yConst);
+			pause(1);
+			xStart++;
+
+			if (xStart == xEnd) {
+				xEnd = 0;
+				while (xStart != xEnd) {
+					oval.setLocation(xStart - 1, yConst);
+					pause(1);
+					xStart--;
 				}
+				xEnd = getWidth() - 2 * RADIUS;
 			}
 		}
+		
 	}
 }
