@@ -11,5 +11,12 @@ public class Problem_40 extends GraphicsProgram {
 		int xStart = 0;
 		int xEnd = getWidth() - 2 * RADIUS;
 		
+		int yConst = getHeight() / 2 - RADIUS;
+		
+		while (xStart != xEnd) {
+			oval.setLocation(xStart, yConst);
+			pause(10);
+		}
+		
 	}
 }
