@@ -6,6 +6,10 @@ public class Problem_40 extends GraphicsProgram {
 	
 	public void run() {
 		GOval oval = new GOval(2 * RADIUS, 2 * RADIUS);
+		oval.setFilled(true);
+		
+		int xStart = 0;
+		int xEnd = getWidth() - 2 * RADIUS;
 		
 	}
 }
