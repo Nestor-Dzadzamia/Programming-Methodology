@@ -5,7 +5,7 @@ import acm.graphics.GOval;
 import acm.program.GraphicsProgram;
 import acm.util.RandomGenerator;
 
-public class Animation_Test extends GraphicsProgram {
+public class Count_Bouncing_Ball_Animation extends GraphicsProgram {
 	private RandomGenerator rgen = RandomGenerator.getInstance();
 	private static final int RADIUS = 50;
 
